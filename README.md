@@ -8,6 +8,16 @@ To execute an end-to-end ASIC physical design flow for the open-source RISC-V Pi
 * **Place & Route (PNR):** Cadence Innovus
 * **Technology Node:** Nangate 45nm Open Cell Library
 
+## Visual Layout Progression
+**1. Power Grid Design (Rings, Stripes, and Follow-Pins)**
+![Power Grid](images/ss_PowerGrid.place.gif)
+
+**2. Standard Cell Placement**
+![Placement](images/ss_Placement.place.gif)
+
+**3. Final Routing (NanoRoute)**
+![Final Routing](images/ss_FinalRouting.place.gif)
+
 ## PPA Results & Sign-off Metrics
 | Metric | Target | Achieved |
 | :--- | :--- | :--- |
